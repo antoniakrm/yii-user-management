@@ -3,7 +3,7 @@ yii-user-management
 
 A user management module collection for the yii framework >= 1.1.14
 
-Hint: For Yii2 i highly suggest the dektrium/yii2-user module: https://github.com/dektrium/yii2-user .
+Hint: For Yii2 I highly suggest the dektrium/yii2-user module: https://github.com/dektrium/yii2-user .
 
 Features:
 ---------
@@ -29,7 +29,7 @@ Vimeo, Goodreads, Live, Pixnet, Steam, Vkontakte
 * Mailing component (users can choose which messages he gets by email)
 * Base Language: English
 * Complete Translations to german, french
-* Almost complete Translation to spain thanks to bigchirv@gmail.com
+* Almost complete Translation to spanish thanks to bigchirv@gmail.com
 * Incomplete Translations to russian and polish
 
 Usage with demo application:
@@ -62,7 +62,7 @@ Manual Installation Instructions:
 * The Yii User Management Module needs a mysql Database Connection to
 work.
 
-* Clone the package into your projects modules/ directory:
+* Clone the package into your project's modules/ directory:
 ```
 $ cd protected/modules
 $ git clone https://github.com/thyseus/yii-user-management
@@ -129,7 +129,7 @@ section. Yum relies on it. If you do not want to use a cache, add
 
 inside the components section of your config/main.php.
 
-Also see http://www.yiiframework.com/doc/guide/1.1/en/caching.overview about
+Also, see http://www.yiiframework.com/doc/guide/1.1/en/caching.overview about
 some general information about caching in yii.
 
 * Run the User Management Installer in your Web-Browser:
@@ -141,15 +141,15 @@ http://localhost/testdrive/index.php?r=user/install
 depending on your URL route setup.
 
 * Now the Installer of the User Management Module should appear.
-To the right you can set up alternate Table Names used by the
-Module. In most cases this is not needed and you can keep this
+To the right, you can set up alternate Table Names used by the
+Module. In most cases, this is not needed and you can keep this
 Settings. If you do change this, be sure to set up the correct table
 Names in your Application Configuration, so the User Module can access
 them.
 
 Click 'Install Module'. After clicking it, the install script will
 create the database tables needed by the module(s). Then it will show
-you the neccesary modifications to be made. Add the Modules you need to your
+you the necessary modifications to be made. Add the Modules you need to your
 Application Configuration as provided by the install script in config/main.php.
 You can also remove the Yum modules you don't want to use.
 
@@ -162,7 +162,7 @@ Now you are taken to the default Front-End Login-Screen of the User
 Management Module. Log in with the Username admin and Password admin.
 
 * Click on the 'update Icon' (the pencil) of your administrator User.
-Change the Password to something more safe than 'admin'. Click Save.
+Change the Password to something safer than 'admin'. Click Save.
 
 * If you didn't already, remove the 'debug' => 'true' line from your
 Application Configuration, so your new data can't get overwritten accidentally
@@ -212,7 +212,7 @@ let users register for your application without needing to receive/click an emai
 Role Management:
 ----------------
 You can add up new roles in the Role Manager. To check for access
-to this roles, you can use this code Snippet everywhere in your
+to these roles, you can use this code Snippet everywhere in your
 Yii Application. Most likely it will be used in the ACL Filter of
 your Controllers:
 
@@ -233,7 +233,7 @@ the logging functions of the Yii User Management module.
 
 Where to go from now on?
 ------------------------
-There are some examples on how to extend from the Yii User Management
+There are some examples of how to extend from the Yii User Management
 Module and how to implement project-specific stuff. See the files in
 the user/docs/ directory for all this.
 
@@ -308,7 +308,7 @@ A: Try to add this in your config/main.php:
 ```
 
 The documentation is stored in the user/docs directory.
-Please read user/docs/install.txt for a installation instruction.
+Please read user/docs/install.txt for installation instructions.
 
 Please DO read the documentation since it is not 100% trivial to install
 this module. There also is a FAQ of common mistakes at the end.
